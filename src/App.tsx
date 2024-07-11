@@ -49,6 +49,7 @@ export default App; */
 
 import ListGroup from "./Components/ListGroup";
 import Alert from "./Components/Alert";
+import Button from "./Components/Button";
 
 let items = ["Kampala", "Jinja", "New York", "Dubai", "Mexico", "Nairobi"];
 
@@ -60,20 +61,25 @@ function App() {
   return (
     <>
       <div className="container">
-      <div>
-        <Alert>
-          <div>
-            <p>This is an alert!</p>
-          </div>
-        </Alert>
-      </div>
-      <div>
-        <ListGroup
-          items={items}
-          heading={"Cities"}
-          onSelectItem={handleSelectItem}
-        />
-      </div>
+        {/* <div>
+          <Alert>
+            <div>
+              <p>This is an alert!</p>
+            </div>
+          </Alert>
+        </div> */}
+        <div>
+          <ListGroup
+            items={items}
+            heading={"Cities"}
+            onSelectItem={handleSelectItem}
+          />
+        </div>
+        <div>
+          <Button>
+            My Button
+          </Button>
+        </div>
       </div>
     </>
   );

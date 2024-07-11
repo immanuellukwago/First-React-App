@@ -46,14 +46,14 @@ const ListGroup = ({ items, heading, onSelectItem }: ListGroupProps) => {
         ))}
       </ul>
       <p></p>
-      <p>
+      <div> 
         <button
           onClick={() => setCount((count) => count + 1)}
           className="btn btn-success"
         >
           Count is {count}
         </button>
-      </p>
+      </div>
     </Fragment>
   );
 };
