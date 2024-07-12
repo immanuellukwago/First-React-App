@@ -46,7 +46,7 @@ const ListGroup = ({ items, heading, onSelectItem }: ListGroupProps) => {
         ))}
       </ul>
       <p></p>
-      <div> 
+      <div>
         <button
           onClick={() => setCount((count) => count + 1)}
           className="btn btn-success"
@@ -62,5 +62,6 @@ const ListGroup = ({ items, heading, onSelectItem }: ListGroupProps) => {
  
 }
  */
+
 //must do
 export default ListGroup;

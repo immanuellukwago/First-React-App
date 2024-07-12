@@ -48,7 +48,6 @@ function App() {
 export default App; */
 
 import ListGroup from "./Components/ListGroup";
-import Alert from "./Components/Alert";
 import Button from "./Components/Button";
 
 let items = ["Kampala", "Jinja", "New York", "Dubai", "Mexico", "Nairobi"];
@@ -76,9 +75,7 @@ function App() {
           />
         </div>
         <div>
-          <Button>
-            My Button
-          </Button>
+          <Button>My Button</Button>
         </div>
       </div>
     </>
